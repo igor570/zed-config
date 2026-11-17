@@ -1,0 +1,67 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "edit_predictions": {
+    "allow_data_collection": "no"
+  },
+  "semantic_tokens": "combined",
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "terminal": {
+    "dock": "right"
+  },
+  "icon_theme": "Soft Charmed Icons",
+  "auto_install_extensions": {
+    "charmed-icons": true,
+    "colored-zed-icons-theme": true,
+    "emmet": true,
+    "github-theme": true,
+    "html": true,
+    "oxc": true,
+    "vscode-2026-theme": true
+  },
+  "base_keymap": "VSCode",
+  "agent_servers": {
+    "claude-acp": {
+      "default_config_options": {
+        "ultracode": false,
+        "fast": false,
+        "model": "fable"
+      },
+      "type": "registry"
+    }
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "VS Code Dark 2026",
+  },
+  "theme_overrides": {
+    "VS Code Dark 2026": {
+      "syntax": {
+        "string.doc": {
+          "color": "#7d8ca3e6"
+        }
+      }
+    }
+  },
+}
